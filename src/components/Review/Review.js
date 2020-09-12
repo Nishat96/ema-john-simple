@@ -9,7 +9,7 @@ import happyImage from '../../images/giphy.gif';
 
 const Review = () => {
     const [cart, setCart] = useState([]);
-    const [orderPlaced, setOrderPlaced] = useState([]);
+    const [orderPlaced, setOrderPlaced] = useState(false);
 
     const handlePlaceOrder = () => {
         setCart([]);
